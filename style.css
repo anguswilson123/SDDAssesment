@@ -1,0 +1,13 @@
+main {
+  max-width: 38rem;
+  padding: 2rem;
+  margin: auto;
+  font-family: Roboto;
+}
+body {
+	  background: #fff3e6;
+}
+
+h1 {
+	font-family: Oswald;
+}
