@@ -1,55 +1,89 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans&display=swap'); 
 
 main {
-  max-width: 46rem;
+  max-width: 49rem;
   margin: auto;
   font-family:'Open Sans', sans-serif;
+
 }
 body {
-	  background: #ededed;
+	  background: #3a3a3a;
+	  color:#e2e2e2;
+	  padding: 0px;
+	  margin: 0;
+	  padding-top: 0;
 }
 
-h1 {
-	color: #165DE9;
+h2 {
 	font-family: 'Noto Sans', sans-serif;
+	padding: 0px;
+	font-size: 40;
+	margin-bottom: 10px; 
+	margin-top: 0px; 
 }
 
-ul {
+.top-part {
+  background-color: #435995;
+  padding-bottom: 7px;
+}
+
+.top-part ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   font-family:'Open Sans';
+
 }
-li {
+.top-part li {
   display: inline;
   padding: 0;
   align-content: center;
 }
-li a {
-	background-color:#16C7E9;
+.top-part li a {
+	background-color:#0B1D4D;
 	color:#fff;
-	padding: 5px;
+	padding: 6px;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	text-decoration: none;
-	border: 2px solid #165DE9;
+	border: 2px solid #435995;
 	border-radius: 11px;
 }
-main img{
+.top-part li a:hover{
+	background-color:#133080;
+}
+.right-img{
 	border-style:solid;
 	border-width: 2	px;
-	border-color: #16E9A2;
-	align-content: : center; 
-	height: 300;
+	border-color: #435995;
+	float: right;
+	margin-left: 5px;
 	border-radius: 2px;
+	flex-wrap: wrap;
 }
-h2 {
-	font-size: 40;
+.left-img{
+	border-style:solid;
+	border-width: 2	px;
+	border-color: #435995;
+	float: left;
+	margin-right: 5px;
+	border-radius: 2px;
+	flex-wrap: wrap;
+}
+h1 {
+	font-size: 50;
 	font-family: 'Noto Sans', sans-serif;
 	border-spacing: 0px;
 	padding: 0;
+	border-top: 100px;
+	margin-bottom: 5px;
+	margin-top: 5px; 
 }
 .top-part{
 	text-align: center;
 
+}
+p{
+	margin-bottom: 10px;
+	margin-top: 10px; 
 }
