@@ -2,12 +2,11 @@ main {
   max-width: 38rem;
   padding: 2rem;
   margin: auto;
-  font-family: Roboto;
+  font-family:sans-serif;
 }
 body {
-	  background: #fff3e6;
+	  background: #ededed;
 }
 
 h1 {
-	font-family: Oswald;
 }
