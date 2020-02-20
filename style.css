@@ -1,19 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans&display=swap'); 
+
 main {
-  max-width: 38rem;
-  padding: 2rem;
+  max-width: 46rem;
   margin: auto;
-  font-family:sans-serif;
+  font-family:'Open Sans', sans-serif;
 }
 body {
 	  background: #ededed;
 }
 
 h1 {
-
+	color: #165DE9;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-family:'Open Sans';
+}
+li {
+  display: inline;
+  padding: 0;
+  align-content: center;
+}
+li a {
+	background-color:#16C7E9;
+	color:#fff;
+	padding: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-decoration: none;
+	border: 2px solid #165DE9;
+	border-radius: 11px;
+}
+main img{
+	border-style:solid;
+	border-width: 2	px;
+	border-color: #16E9A2;
+	align-content: : center; 
+	height: 300;
+	border-radius: 2px;
+}
+h2 {
+	font-size: 40;
+	font-family: 'Noto Sans', sans-serif;
+	border-spacing: 0px;
+	padding: 0;
+}
+.top-part{
+	text-align: center;
+
 }
