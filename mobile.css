@@ -1,0 +1,22 @@
+.top-part ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-part li {
+  float: center;
+}
+
+.top-part li:first-child {
+	float: center;
+	font-family: 'Roboto Slab';
+}
+
+.top-part li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
